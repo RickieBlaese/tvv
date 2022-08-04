@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 	if (std::system("tiv 2>/dev/null")) {
-		std::cerr << "error: tiv is not installed or on path\n";
+		std::cerr << "error: tiv is not installed or not on path\n";
 		return 1;
 	}
 
